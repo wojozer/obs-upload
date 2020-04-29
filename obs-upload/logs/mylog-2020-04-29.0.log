@@ -1,0 +1,31 @@
+[ INFO ] [2020-04-29 11:33:39] com.obsupload.StartApplication [31] - 启动服务中...
+[ INFO ] [2020-04-29 11:33:40] com.obsupload.StartApplication [48] - Starting StartApplication on zwj with PID 11108 (D:\CodeHome\gitHub\obs-upload\target\classes started by holly in D:\CodeHome\gitHub\obs-upload)
+[ INFO ] [2020-04-29 11:33:40] com.obsupload.StartApplication [597] - The following profiles are active: dev
+[ INFO ] [2020-04-29 11:33:40] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@51549490: startup date [Wed Apr 29 11:33:40 CST 2020]; root of context hierarchy
+[ INFO ] [2020-04-29 11:33:40] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.6.Final
+[ INFO ] [2020-04-29 11:33:41] com.obsupload.configur.PropertiesConfig [18] - 自定义加载Properties数据...
+[ INFO ] [2020-04-29 11:33:42] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [89] - Tomcat initialized with port(s): 8089 (http)
+[ INFO ] [2020-04-29 11:33:42] org.apache.catalina.core.StandardService [183] - Starting service Tomcat
+[ INFO ] [2020-04-29 11:33:42] org.apache.catalina.core.StandardEngine [183] - Starting Servlet Engine: Apache Tomcat/7.0.63
+[ INFO ] [2020-04-29 11:33:42] org.apache.catalina.startup.TldConfig [183] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[ INFO ] [2020-04-29 11:33:42] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/obs] [183] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2020-04-29 11:33:42] org.springframework.web.context.ContextLoader [276] - Root WebApplicationContext: initialization completed in 2362 ms
+[ INFO ] [2020-04-29 11:33:43] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'dispatcherServlet' to [/]
+[ INFO ] [2020-04-29 11:33:43] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[ INFO ] [2020-04-29 11:33:43] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[ INFO ] [2020-04-29 11:33:43] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[ INFO ] [2020-04-29 11:33:43] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'requestContextFilter' to: [/*]
+[ INFO ] [2020-04-29 11:33:43] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@51549490: startup date [Wed Apr 29 11:33:40 CST 2020]; root of context hierarchy
+[ INFO ] [2020-04-29 11:33:43] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[ INFO ] [2020-04-29 11:33:43] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[ INFO ] [2020-04-29 11:33:43] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO ] [2020-04-29 11:33:43] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO ] [2020-04-29 11:33:43] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO ] [2020-04-29 11:33:44] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [431] - Registering beans for JMX exposure on startup
+[ INFO ] [2020-04-29 11:33:44] org.apache.coyote.http11.Http11NioProtocol [183] - Initializing ProtocolHandler ["http-nio-8089"]
+[ INFO ] [2020-04-29 11:33:44] org.apache.coyote.http11.Http11NioProtocol [183] - Starting ProtocolHandler ["http-nio-8089"]
+[ INFO ] [2020-04-29 11:33:44] org.apache.tomcat.util.net.NioSelectorPool [183] - Using a shared selector for servlet write/read
+[ INFO ] [2020-04-29 11:33:44] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [201] - Tomcat started on port(s): 8089 (http)
+[ INFO ] [2020-04-29 11:33:44] com.obsupload.StartApplication [57] - Started StartApplication in 4.655 seconds (JVM running for 7.087)
+[ INFO ] [2020-04-29 11:33:44] com.obsupload.StartApplication [33] - 服务已启动...
+[ INFO ] [2020-04-29 11:33:51] com.obsupload.service.HuaweiyunOBS [102] - 开启监控.....

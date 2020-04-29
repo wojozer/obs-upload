@@ -1,0 +1,7 @@
+#本文件用于引用其它子模块中的配置类，在springboot启动时加载
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.hollycrm.hollysqm.configur.FtpSourceConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.obsupload.configur.DruidDataSourceConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.obsupload.configur.PropertiesConfig

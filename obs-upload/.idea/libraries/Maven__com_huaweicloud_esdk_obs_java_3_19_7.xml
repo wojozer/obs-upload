@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.huaweicloud:esdk-obs-java:3.19.7">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/huaweicloud/esdk-obs-java/3.19.7/esdk-obs-java-3.19.7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/huaweicloud/esdk-obs-java/3.19.7/esdk-obs-java-3.19.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/huaweicloud/esdk-obs-java/3.19.7/esdk-obs-java-3.19.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
